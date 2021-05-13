@@ -100,3 +100,12 @@ body
 {
     background-color: #24353F;
 }
+
+
+
+@media screen and (max-width: 780px) {
+    .login
+    {
+        width: 90%;
+    }
+  }
