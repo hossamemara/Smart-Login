@@ -87,22 +87,29 @@
 
 .login
 {
-    box-shadow: 10px 10px 15px black
-    ,-10px -10px 15px black;
-    background-color: #24353F;
+    
+    background-color: rgba(100, 100, 100, 0.3);
 }
 
 .log-out
 {
-    box-shadow: 5px 5px 5px black;
+    
+    background-color: rgba(150, 150, 150, 0.5);
 }
 body
 {
-    background-color: #24353F;
+    background-color: #3aabbe;
+    background-image: url(../Images/work-6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-
+.smart
+{
+    font-size: 20px;
+}
 @media screen and (max-width: 780px) {
     .login
     {
